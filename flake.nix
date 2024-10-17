@@ -29,6 +29,7 @@ description = "Johnseth97 Darwin system flake";
         # Terminal apps
         pkgs.btop
         pkgs.neovim
+        pkgs.lazygit
         
         # Utilities
         pkgs.fontforge
