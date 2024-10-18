@@ -58,6 +58,9 @@ description = "Johnseth97 Darwin system flake";
           # Lua
           pkgs.lua
           pkgs.luarocks
+
+          # Zig
+          pkgs.zig
           
         
         # keyboards
