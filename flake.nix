@@ -14,29 +14,34 @@ description = "Johnseth97 Darwin system flake";
       
       # Nix Packages
       environment.systemPackages = [
+       
         # Terminal
-        # Prompt
-        pkgs.oh-my-zsh
-        
-        # Terminal tools
-        pkgs.git
-        pkgs.fzf
-        pkgs.wget
-        pkgs.fd
-        pkgs.ripgrep
-        pkgs.stow
-        
-        # Terminal apps
-        pkgs.btop
-        pkgs.neovim
-        pkgs.lazygit
-        
-        # Utilities
-        pkgs.fontforge
-        pkgs.neofetch
-        pkgs.sl
-        pkgs.lolcat
-        pkgs.charasay
+
+          # Prompt
+          pkgs.starship
+
+          # Plugin manager
+          pkgs.antidote
+          
+          # Terminal tools
+          pkgs.git
+          pkgs.fzf
+          pkgs.wget
+          pkgs.fd
+          pkgs.ripgrep
+          pkgs.stow
+          
+          # Terminal apps
+          pkgs.btop
+          pkgs.neovim
+          pkgs.lazygit
+          
+          # Utilities
+          pkgs.fontforge
+          pkgs.neofetch
+          pkgs.sl
+          pkgs.lolcat
+          pkgs.charasay
 
         # programming languages
           
