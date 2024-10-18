@@ -20,9 +20,6 @@ description = "Johnseth97 Darwin system flake";
           # Prompt
           pkgs.starship
 
-          # Plugin manager
-          pkgs.antidote
-          
           # Terminal tools
           pkgs.git
           pkgs.fzf
@@ -131,6 +128,7 @@ description = "Johnseth97 Darwin system flake";
           "sketchybar"
           "yabai"
           "skhd"
+          "antidote"
         ];
 
         masApps = {
