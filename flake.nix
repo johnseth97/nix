@@ -27,6 +27,7 @@ description = "Johnseth97 Darwin system flake";
           pkgs.fd
           pkgs.ripgrep
           pkgs.stow
+          pkgs.tmux
           
           # Terminal apps
           pkgs.btop
