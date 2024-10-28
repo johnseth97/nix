@@ -33,6 +33,7 @@ description = "Johnseth97 Darwin system flake";
           pkgs.btop
           pkgs.neovim
           pkgs.lazygit
+          pkgs.almonds
           
           # Utilities
           pkgs.fontforge
@@ -60,7 +61,7 @@ description = "Johnseth97 Darwin system flake";
           pkgs.luarocks
 
           # Zig
-          pkgs.zig
+          #pkgs.zig
           
         
         # keyboards
@@ -122,7 +123,6 @@ description = "Johnseth97 Darwin system flake";
           # "aerospace"
           # "wezterm"
           "zoom"
-          
         ];
 
         brews = [
@@ -133,9 +133,12 @@ description = "Johnseth97 Darwin system flake";
           "yabai"
           "skhd"
           "antidote"
+          "zig"
+          "deno"
+          "act"
         ];
 
-        masApps = {
+          masApps = {
           "AdGuard" = 1440147259;
           "Noir" = 1592917505;
           "Windows App" = 1295203466;
